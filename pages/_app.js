@@ -1,7 +1,12 @@
-import '../styles/global.css'
-import 'bootstrap/dist/css/bootstrap.css'
+import "../styles/globals.css";
+import { ThemeProvider } from "next-themes";
 
+function MyApp({ Component, pageProps }) {
+  return (
+    <ThemeProvider attribute="class">
+      <Component {...pageProps} />
+    </ThemeProvider>
+  );
+}
 
-export default function App({ Component, pageProps }) {
-    return <Component {...pageProps} />
-  }
+export default MyApp;
