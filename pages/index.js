@@ -18,7 +18,7 @@ export default function Home({ blogs }) {
   return (
     <>
       <Head>
-        <title>Techsheet 🚀</title>
+        <title>TechSheet 🚀</title>
         <meta name="title" content="Techsheet 🚀" />
         <meta
           name="description"
@@ -26,28 +26,22 @@ export default function Home({ blogs }) {
         />
 
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://blogs.soumyajit.tech/" />
+        <meta property="og:url" content="" />
         <meta property="og:title" content="Techsheet 🚀" />
         <meta
           property="og:description"
           content="Tech blogs and articles on various topics related to Software Development"
         />
-        <meta
-          property="og:image"
-          content="https://raw.githubusercontent.com/soumyajit4419/Techsheet/main/Extra/sc.png"
-        />
+
 
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://blogs.soumyajit.tech/" />
+        <meta property="twitter:url" content="" />
         <meta property="twitter:title" content="Techsheet 🚀" />
         <meta
           property="twitter:description"
           content="Tech blogs and articles on various topics related to Software Development"
         />
-        <meta
-          property="twitter:image"
-          content="https://raw.githubusercontent.com/soumyajit4419/Techsheet/main/Extra/sc.png"
-        />
+
       </Head>
 
       <div className="min-h-screen relative bg-white dark:bg-gray-900">
