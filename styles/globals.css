@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer utilities {
+
+
+  
   @variants dark {
     .bg-dark {
       background: #070c17db;
