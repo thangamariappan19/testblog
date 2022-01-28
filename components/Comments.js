@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { checkAuth } from "../Lib/CheckAuth";
 import Alert from "./Alert";
-// import { collection, addDoc, Timestamp } from "firebase/firestore";
+import { collection, addDoc, Timestamp } from "firebase/firestore";
 import { db } from "../Firebase/Firebase";
 import useSWR, { useSWRConfig } from "swr";
 
