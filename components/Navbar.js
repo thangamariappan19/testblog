@@ -6,8 +6,8 @@ import { SiAboutDotMe } from "react-icons/si";
 import { BiSun, BiMoon } from "react-icons/bi";
 import { VscGithub } from "react-icons/vsc";
 import { AiOutlineGoogle } from "react-icons/ai";
-// import { auth, provider } from "../Firebase/Firebase";
-// import { signInWithPopup, signOut } from "firebase/auth";
+import { auth, provider } from "../Firebase/Firebase";
+import { signInWithPopup, signOut } from "firebase/auth";
 import { IoLogOutOutline } from "react-icons/io5";
 import Alert from "./Alert";
 

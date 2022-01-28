@@ -2,7 +2,7 @@ import { useState } from "react";
 import { checkAuth } from "../Lib/CheckAuth";
 import Alert from "./Alert";
 // import { collection, addDoc, Timestamp } from "firebase/firestore";
-// import { db } from "../Firebase/Firebase";
+import { db } from "../Firebase/Firebase";
 import useSWR, { useSWRConfig } from "swr";
 
 const fetcher = (...args) => fetch(...args).then((res) => res.json());
